@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+        background-color: #FDF6EC;
+        color: #4a4038;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+h1, h2, h3 {
+        color: #2A6F97;
+        font-family: Georgia, serif;
+    }
+
+p {
+    font-size: 1.05em;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+    color: #4a4038;
+}
+
+
+
+blockquote {
+        font-style: italic;
+        color: #444444;
+    }
+
+ul {
+        margin-left: 20px;
+    }
+
+a:link {
+        color:#E36414;
+    }
+
+a:visited {
+        color: #9A3412;
+    }
+
+a:hover {
+        color: #F4A261;
+    }
+
+.img-right {
+        float: right;
+        padding: 10px;
+    }
+
+.img-left {
+    float: left;
+    padding: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+	border: 3px solid #CCC;
+	border-radius: 4px;
+}
+
+th {
+    background-color: #2A6F97;
+    color: white;
+    padding: 10px;
+    font-family: georgia, serif;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f6ede0;
+}
+
+@font-face {
+    font-family: 'EnobledPet';
+    src: url('fonts/ennobled.eot');
+    src: url('fonts/ennobled.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ennobled.woff2') format('woff2'),
+         url('fonts/ennobled.woff') format('woff'),
+         url('fonts/ennobled.ttf') format('truetype'),
+         url('fonts/ennobled.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+caption{
+    font-family: 'EnobledPet', Georgia, serif;
+    font-size: 3.5em;
+    padding: 8px;
+    background-color: #F4A261;
+    color: #2e2e2e;
+    border-radius: 8px;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	width: 900px;
+	background-color: #F4A261;
+	text-align: center;
+	border-bottom: 4px solid #2A6F97;
+	overflow: auto;
+	padding: 20px;
+}
+
+section {
+	width: 900px;
+	background-image: url("images/logo/RAPbackground.png");
+	background-repeat: repeat-y;
+	padding: 20px 0;
+}
+
+nav {
+    width: 22%;
+    float: right;
+	text-align: right;
+	margin-right: 20px;
+}
+
+
+article {
+	width: 800px;
+    padding: 20px;
+    background-color: transparent;
+    border-left: 2px solid #2A6F97;
+    border-right: 2px solid #2A6F97;
+	margin: 0 auto;
+}
+
+footer {
+	width: 900px;
+    background-color: #F4A261;
+    text-align: center;
+    padding: 15px;
+    border-top: 4px solid #2A6F97;
+	color: #2A6F97;
+}
+
+footer p a {
+    color: #2A6F97;
+    font-weight: bold;
+}
+
+footer p a:hover {
+    color: #003B6F;
+}
+
+.logoleft {
+	float: left;
+}
+
+nav a {
+	display: block;
+    background-color: #2A6F97;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+	padding: 6px 10px;
+	border-radius: 4px;
+	margin: 4px 0;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+nav a:hover {
+    background-color: #E36414;
+}
+	
+#logo {
+    float: left;
+    margin-right: 10px;
+	width:12%;
+	height: auto;
+}
+
+#banner {
+    display: block;
+	width: 50%;
+	height: auto;
+	margin-left: 40px;
+	float: left
+}
+	
+img {
+	border: 3px solid #CCC;
+	border-radius: 4px;
+}	
+	
+.splash-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    margin-top: 20px;
+}
+
+.splash-container img {
+	display: block;
+	margin: 20px auto;
+}
+.splash-header img {
+    width: auto;
+    height: 100px;
+}
+
+.splash-header-bg {
+    background-color: #F4A261; /* same orange as your site */
+    width: 700px;              /* matches your imagemap width */
+    margin: 0 auto;            /* centers it */
+    padding: 10px 0;           /* top/bottom breathing room */
+    border: 3px solid #CCC;    /* optional: matches your image borders */
+    border-radius: 4px;
